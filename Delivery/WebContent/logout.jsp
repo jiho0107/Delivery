@@ -11,4 +11,4 @@
 	<a href="/Delivery/result/logoutResult.jsp"><button>로그아웃</button></a><p>
 	<a href="/Delivery/home.jsp"><button>홈</button></a>
 </body>
-</html>
+</html>  
