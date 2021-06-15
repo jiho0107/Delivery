@@ -7,6 +7,15 @@ public class ProductVO {
 	private String store;
 	private String type;
 	private String img;
+	public ProductVO() {}
+	public ProductVO(String no,String name,int price,String store,String type,String img) {
+		this.no = no;
+		this.name = name;
+		this.price = price;
+		this.store = store;
+		this.type = type;
+		this.img = img;
+	}
 	public String getNo() {
 		return no;
 	}

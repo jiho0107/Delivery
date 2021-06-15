@@ -24,7 +24,9 @@ public class FrontController extends HttpServlet{
 		map.put("/orderList.do", new OrderListController()); //주문목록
 		map.put("/add.do", new AddController()); //담기
 		map.put("/order.do", new OrderController()); //주문하기
-		map.put("/delete.do", new DeleteController()); //아이템 삭제
+		map.put("/delete.do", new DeleteController()); //장바구니 메뉴 삭제
+		map.put("/showStores.do", new ShowStoresController()); //가게목록보여주기
+		map.put("/showItems.do", new ShowItemsController()); //가게의 음식목록 보여주기
 	}
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
